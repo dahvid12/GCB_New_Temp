@@ -1,0 +1,284 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: none;
+}
+ 
+.button {
+  background-color: Transparent;
+  border: none;
+  color: white;
+  padding: 20px 25px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  
+}
+  .container {
+  position: relative;
+  width: 100%;
+ height: 100%;
+   
+  
+}
+
+.button:hover {
+  background-color: #568F63;
+}
+    
+
+    
+.img1 {
+  width: 100%;
+  height: auto;
+  width:auto;
+   -webkit-filter: grayscale(1%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(1%);
+  
+}
+
+.container .btn {
+  
+  top: 0px;
+  float: right;
+  
+  background-color: Transparent;
+  border: none;
+  color: #FFFFFF  ;
+  padding: 14px 20px;
+  text-align: center;
+  font-size: 26px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  border-radius: 2px;
+   
+}
+    
+    
+
+.container .btn:hover {
+      background-color: #568F63;
+    }
+    
+    
+    
+ /*-- Second Button --> */
+    .img1 {
+  width: 100%;
+  height: auto;
+      -webkit-filter: grayscale(10%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(10%);
+}
+    .container .btn2 {
+  
+  top: 0px;
+  float: right;
+  
+  background-color: Transparent;
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  border-radius: 2px;
+       
+}
+    .container .btn2:hover {
+      background-color: #568F63;
+    }
+    
+    
+/*\\-- third btn -- */
+      .img1 {
+  width: 100%;
+  height: auto;
+      -webkit-filter: grayscale(10%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(10);
+}
+  
+    .container .btn3{
+  
+  top: 0px;
+  float: right;
+  
+  background-color: Transparent;
+  border: none;
+  color: white;
+  padding: 15px 24px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  border-radius: 2px;
+       
+}
+    .container .btn3:hover{
+      background-color: #568F63;
+    }
+    
+    /*-- contact us btn */
+    .img1 {
+  width: 100%;
+  height: auto;
+      -webkit-filter: grayscale(29); 
+  filter: grayscale(90%);
+}
+    .container .btn4{
+  
+  top: 0px;
+ float: right;
+  
+  background-color: Transparent;
+  border: none;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  border-radius: 2px;
+       
+}
+    .container .btn4:hover{
+      background-color: #568F63;
+    }
+  
+ /*
+    -
+     IMAGE FILTER SETTINGS 
+ */
+    .img1 {
+  width: 100%;
+  height: 50%;
+  filter:brightness(75%);
+  
+  
+}
+   
+
+    .centered2 {
+  position: absolute;
+  top: 26%;
+  left: 40%;
+  
+  font-size: 22px;
+  color: #E6EBE8;
+    font-weight: 530;
+  font-family: Arial, Helvetica, sans-serif;
+     
+}
+     
+    .centered1 {
+  position: absolute;
+  top: 20%;
+  left:34%;
+  color: #FFFFFF  ;
+    font-weight: 550;
+  font-family: Arial, Helvetica, sans-serif;
+     
+}
+
+    .layer2 {
+  width: 1000px;
+  height: 65px;
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  color:  #E6EBE8;
+  overflow: hidden;
+  background-color: none;
+  list-style-type: none;
+
+
+}
+
+    .homeText {
+      width: 2000px;
+      height: auto;
+      position: absolute;
+
+    }
+
+.contactText {
+  width: 200px;
+  height: 30%;
+  text-align: center;
+  background-color: rgb(212, 212, 175);
+  font-size: 40px;
+  color: rgb(95, 95, 83)  ;
+  font-weight: 550;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+
+}
+
+.logo { 
+  position: absolute;
+  width: 22%;
+  height: 13%;
+  top: 0%;
+  left: 6%;
+ 
+  
+
+}
+.footer {
+   position: relative;
+    left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 180px;
+   background-color: rgb(54, 112,30);
+   color: white;
+   font-family: Helvetica;
+  
+}
+
+#body2 {
+  height: 700px;
+  background-color: rgb(238,238,238);
+  text-align: center;
+  
+}
+.missionHeader {
+  color: rgb(5, 10, 5);
+  font-family: 'AvenirLT-Book',Arial,Helvetica,sans-serif;
+  text-align: center;
+  font-weight: normal;
+  font-size: 30px;
+  padding-top: 2px;
+  background-color: rgb(238,238,238);
+}
+
+.footerHeader {
+font-family: 'AvenirLT-Book',Arial,Helvetica,sans-serif;
+font-size: x-large;
+padding-top: 10px;
+padding-left: 10px;
+
+
+}
+.footerText {
+  font-family: 'AvenirLT-Book',Arial,Helvetica,sans-serif;
+  font: Helvetica;
+  padding-top: 0px;
+  padding-left: 10px;
+  }
+
+.phoneImg {
+  vertical-align: middle;
+  padding: 2px;
+}
